@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(24, 33, 78);
+  color: rgb(224, 224, 224);
+  font-family: "Pixelify Sans", serif;
+  font-size: 40px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  padding-top: 13%;
+}
+
+.input__content {
+  padding: 30px;
+}
+
+.input__item {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 80px;
+  font-family: "Pixelify Sans", serif;
+  outline: none;
+  background-color: black;
+  color: greenyellow;
+  padding-left: 10px;
+}
+
+.button_content {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.button__item {
+  width: 90px;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+.answer__content {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.footer__copyright {
+  display: none;
+}
