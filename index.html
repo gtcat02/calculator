@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>calculator</title>
   <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
   <header class="header">
@@ -17,12 +18,13 @@
   <main class="main">
     <div class="container">
       <div class="input__content">
-        <input class="input__item" type="number">
-        <input class="input__item" type="number">
+        <input class="input__item" id="input1" value="10" type="number">
+        <input class="input__item" id="input2" value="1" type="number">
       </div>
       <div class="button_content">
-        <button class="button__item">+</button>
-        <button class="button__item">-</button>
+        <button class="button__item" id="plus">+</button>
+        <button class="button__item" id="minus">-</button>
+        <button class="button__item button--accent" id="submit">=</button>
       </div>
       <div class="answer__content">
         <p class="answer__field">answer: <span class="answer__item">0</span></p>

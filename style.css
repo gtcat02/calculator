@@ -48,6 +48,10 @@ body {
   cursor: pointer;
 }
 
+.button--accent {
+  background-color: rgb(169, 169, 169);
+}
+
 .answer__content {
   text-align: left;
   padding-left: 30px;
